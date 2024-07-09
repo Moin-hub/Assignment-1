@@ -1,0 +1,220 @@
+body{
+    font-family: "Azeret Mono", monospace;
+}
+
+/* Header Styles */
+.header-background{
+    background-image: url(./assets/Hero-bg.png);
+    width: 1440px;
+    height: 652px;
+    background-position: center;
+    margin: auto;
+    margin-bottom: 150px;
+}
+
+.header-title{
+    font-size: 48px;
+    font-weight: 800;
+    width: 900px;
+    text-align: center;
+    margin-top: 32px;
+    margin-bottom: 24px;
+}
+
+.header-btn{
+    width: 208px;
+    height: 66px;
+    border-radius: 8px;
+    background-color: #0D1321;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.header-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-logo{
+    width: 240px;
+    height: 240px;
+    margin-top: 26px;
+}
+
+.header-description{
+    width: 800px;
+    font-size: 16px;
+    color: #0D1321;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+/* Web-Development Styles */
+.web.development{
+    margin-bottom: 220px;
+}
+
+.web-development-title{
+font-size: 32px;
+font-weight: 800;
+}
+
+.web-development-description{ 
+    width: 850px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+.layers{
+    width: 950px;
+    height: 1070px;
+    margin: auto;
+
+}
+
+.layer-1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.layer-1-text{
+    width: 470px;
+}
+
+.layer-title{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.layer-text{
+    font-size: 16px;
+    color: #0D1321;
+}
+
+.layer-btn{
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+}
+
+.layer-btn-size{
+    width: 150px;
+    height: 48px;
+}
+
+/* inspiration styles */
+.inspiration{
+    text-align: center;
+    width: 850px;
+    margin: auto;
+    margin-bottom: 80px;
+}
+
+.my-inspiration{
+    margin-bottom: 180px;
+}
+
+.video{
+    width: 1070px;
+    height: 550px;
+    margin: auto;
+}
+
+/* targets styles */
+.my-current-target{
+    margin-bottom: 110px;
+}
+
+.targets{
+    display: flex;
+    width: 1140px;
+    margin: auto;
+    gap: 40px;
+}
+
+.target-description{
+    text-align: center;
+    width: 940px;
+    margin: auto;
+    margin-bottom: 48px;
+}
+
+.target1{
+    background-color: rgba(255, 76, 30, 0.05);
+    width: 364px;
+    height: 299px;
+    padding: 40px;
+}
+
+.target2{
+    background-color: rgba(0, 76, 232, 0.05);
+    width: 364px;
+    height: 299px;
+    padding: 40px;
+}
+
+.target3{
+    background-color: rgba(255, 223, 0, 0.05);
+    width: 364px;
+    height: 299px;
+    padding: 40px;
+}
+
+.target-title{
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.target-btn{
+    text-decoration: none;
+    color: black;
+}
+
+/* Support style */
+.support{
+    background-image: url(./assets/handshake.jpg);
+    width: 1140px;
+    height: 313px;
+    background-position: center;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 120px;
+}
+
+.support-text{
+    text-align: center;
+}
+
+.support-title{
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+}
+
+.support-description{
+    font-size: 16px;
+    color: white;
+}
+
+.feedback{
+    width: 550px;
+    height: 60px;
+    border-radius: 8px;
+    border: 0;
+}
+
+.submit-feedback{
+    width: 120px;
+    height: 60px;
+    border-radius: 8px;
+    border: 0;
+    font-size: 20px;
+    font-weight: 600;
+    
+}
