@@ -82,28 +82,32 @@ font-weight: 800;
 
 .layer-1-text{
     width: 470px;
+    margin-bottom: 150px;
 }
 
 .layer-title{
     font-size: 24px;
     font-weight: bold;
+    color: rgba(13, 19, 33, 0.741);
 }
 
 .layer-text{
     font-size: 16px;
-    color: #0D1321;
+    color: rgba(13, 19, 33, 0.614);
 }
 
 .layer-btn{
     font-size: 20px;
     font-weight: 600;
+    background-color: white;
     text-decoration: none;
-    color: black;
+    color: rgba(13, 19, 33, 0.615);
 }
 
 .layer-btn-size{
     width: 150px;
     height: 48px;
+    background-color: white;
 }
 
 /* inspiration styles */
@@ -116,6 +120,7 @@ font-weight: 800;
 
 .my-inspiration{
     margin-bottom: 180px;
+    margin-top: 210px;
 }
 
 .video{
@@ -189,6 +194,7 @@ font-weight: 800;
 
 .support-text{
     text-align: center;
+    margin-top: 55px;
 }
 
 .support-title{
@@ -207,6 +213,7 @@ font-weight: 800;
     height: 60px;
     border-radius: 8px;
     border: 0;
+    padding-left: 30px;
 }
 
 .submit-feedback{
@@ -217,4 +224,22 @@ font-weight: 800;
     font-size: 20px;
     font-weight: 600;
     
+}
+
+
+/* Footer styles */
+.footer{
+    display: flex;
+    justify-content: space-between;
+    width: 1140px;
+    margin: auto;
+}
+
+.footer-text{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.footer-link{
+    margin-left: 20px;
 }
