@@ -36,6 +36,11 @@
     font-weight: 600;
 }
 
+.contact{
+    text-decoration: none;
+    color: white;
+}
+
 .header-div{
     display: flex;
     flex-direction: column;
@@ -59,7 +64,7 @@
 /* Web-Development Styles */
 .web-development{
     
-    height: 1390px;
+    height: 1500px;
     width: 1140px;
     background-color: rgba(106, 124, 165, 0.065);
     margin: auto;
@@ -76,6 +81,7 @@ font-weight: 800;
     text-align: center;
     margin: auto;
     margin-bottom: 100px;
+    padding-top: 25px;
 }
 
 .layers{
@@ -93,7 +99,8 @@ font-weight: 800;
 .layer-1-text{
     width: 470px;
     margin-bottom: 150px;
-    background-color: rgba(230, 234, 243, 0.24);
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
 }
 
 .layer-title{
@@ -217,6 +224,7 @@ font-weight: 800;
 .support-description{
     font-size: 16px;
     color: white;
+    width: 650px;
 }
 
 .feedback{
