@@ -194,7 +194,8 @@ font-weight: 800;
 
 .target-btn{
     text-decoration: none;
-    color: black;
+    color: rgba(13, 19, 33, 1.00);
+    font-weight: bold;
 }
 
 
