@@ -197,6 +197,39 @@ font-weight: 800;
     color: black;
 }
 
+
+/* My Next Target Styles */
+.my-next-target{
+    margin-bottom: 40px;
+}
+
+.next-target{
+    text-align: center;
+    width: 850px;
+    margin: auto;
+}
+
+.next-target-layer-1{
+    border: 2px solid darkgray;
+    width: 1140px;
+    height: 220px;
+    border-radius: 16px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    padding-left: 35px;
+    gap: 50px;
+    margin-bottom: 24px;
+}
+
+.next-target-div{
+    text-align: left;
+}
+
+.react{
+    font-size: 24px;
+    font-weight: 800;
+}
 /* Support style */
 .support{
     background-image: url(./assets/handshake.jpg);
@@ -208,6 +241,7 @@ font-weight: 800;
     flex-direction: column;
     align-items: center;
     margin-bottom: 120px;
+    margin-top: 40px;
 }
 
 .support-text{
@@ -252,6 +286,7 @@ font-weight: 800;
     justify-content: space-between;
     width: 1140px;
     margin: auto;
+    margin-top: 140px;
 }
 
 .footer-text{
